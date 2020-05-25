@@ -33,7 +33,11 @@ public class Congresso {
 		//}
 	}
 
-
+	public int totalAssentos(){
+		return numeroAssento;
+	}
+	
+	
 	public String totalParticipante() {
 		return "O total de participantes é "+participantes.size();
 	}

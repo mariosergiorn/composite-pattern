@@ -31,6 +31,7 @@ public class Cliente {
 		
 		cc.listarParticipantes();
 		System.out.println(cc.totalParticipante());
+		System.out.println("O total de assentos é "+cc.totalAssentos());
 		
 	}
 
